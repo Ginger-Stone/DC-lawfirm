@@ -1,24 +1,11 @@
 # dclawfirm
 
-## Project setup
-```
-npm install
-```
+## The Star Rating component
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+https://www.npmjs.com/package/vue-star-rating
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## photo credits
 
-### Lints and fixes files
-```
-npm run lint
-```
+Photo by August de Richelieu - https://www.pexels.com/@august-de-richelieu?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Photo by Godisable Jacob - https://www.pexels.com/@godisable-jacob-226636?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels
