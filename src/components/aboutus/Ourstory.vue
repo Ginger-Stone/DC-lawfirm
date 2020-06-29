@@ -58,8 +58,11 @@ export default {};
   display: inline-block;
   width: 40%;
   text-align: justify;
+}
+.ourstory-content p {
   padding: 0 20px;
 }
+
 .ourstory-content p {
   color: var(--main-color);
   max-height: 25vh;
@@ -93,8 +96,8 @@ progress[value]::-webkit-progress-bar {
 @media screen and (max-width: 768px) {
   .ourstory-content,
   .ourstory-services {
-    margin-left: 8%;
-    width: 80%;
+    /* margin-left: 8%; */
+    width: 99%;
     text-align: justify;
   }
 }

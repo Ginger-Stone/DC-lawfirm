@@ -134,7 +134,7 @@ export default {};
     width: 100%;
   }
   .item-img img {
-    max-height: 50vh;
+    max-height: 30vh;
   }
   .item-info .social {
     display: flex;

@@ -17,3 +17,9 @@ Photo by Christina Morillo - https://www.pexels.com/@divinetechygirl?utm_content
 Photo by Ketut Subiyanto - https://www.pexels.com/@ketut-subiyanto?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels
 
 Photo by Emmy E - https://www.pexels.com/@emmy-e-1252107?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels
+
+https://www.flaticon.com/authors/flat-icons" from www.flaticon.com
+
+https://www.flaticon.com/authors/nikita-golubev
+
+https://www.freepik.com/

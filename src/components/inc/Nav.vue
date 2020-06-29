@@ -186,16 +186,21 @@ img {
   visibility: hidden;
   display: none;
 }
-nav a:hover {
+nav a:hover,
+#side-nav a:hover {
   color: var(--accent-color);
   font-weight: bolder;
   transition: all 200ms ease-in-out 200ms;
   cursor: pointer;
 }
 .cta:hover {
-  color: white;
+  color: white !important;
   background-color: var(--accent-color);
   transition: all 200ms ease-in-out 200ms;
+}
+nav a:active,
+#side-nav a:active {
+  font-weight: bolder;
 }
 
 @media screen and (max-width: 768px) {
