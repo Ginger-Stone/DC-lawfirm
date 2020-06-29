@@ -4,7 +4,7 @@
     <div id="review-items">
       <div class="review-item">
         <div class="img">
-          <img src="../assets/review-female.jpg" alt="" />
+          <img src="../../assets/review-female.jpg" alt="" />
         </div>
         <div class="review-details">
           <span class="name">Jacks Muthoni</span>
@@ -24,7 +24,7 @@
       </div>
       <div class="review-item">
         <div class="img">
-          <img src="../assets/review-female.jpg" alt="" />
+          <img src="../../assets/review-female.jpg" alt="" />
         </div>
         <div class="review-details">
           <span class="name">Jacks Muthoni</span>
@@ -44,7 +44,7 @@
       </div>
       <div class="review-item">
         <div class="img">
-          <img src="../assets/review-female.jpg" alt="" />
+          <img src="../../assets/review-female.jpg" alt="" />
         </div>
         <div class="review-details">
           <span class="name">Jacks Muthoni</span>
@@ -73,8 +73,8 @@
 import StarRating from "vue-star-rating";
 export default {
   components: {
-    StarRating,
-  },
+    StarRating
+  }
 };
 </script>
 

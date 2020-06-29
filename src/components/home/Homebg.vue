@@ -2,7 +2,7 @@
   <div id="homebg">
     <div class="home-bg">
       <div class="overlay"></div>
-      <img src="../assets/homebg.png" />
+      <img src="../../assets/homebg.png" />
     </div>
     <div id="home-content">
       <h1>

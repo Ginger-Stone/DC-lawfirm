@@ -1,6 +1,5 @@
 <template lang="">
   <div id="home">
-    <!-- <Nav></Nav> -->
     <Homebg></Homebg>
     <ServicesHome></ServicesHome>
     <Review></Review>
@@ -8,19 +7,17 @@
 </template>
 
 <script>
-import Homebg from "./Homebg.vue";
-// import Nav from "./Nav.vue";
-import ServicesHome from "./ServicesHome.vue";
-import Review from "./Review.vue";
+import Homebg from "./home/Homebg.vue";
+import ServicesHome from "./home/ServicesHome.vue";
+import Review from "./inc/Review.vue";
 
 export default {
   name: "Home",
   components: {
     Homebg,
-    // Nav,
     ServicesHome,
-    Review,
-  },
+    Review
+  }
 };
 </script>
 

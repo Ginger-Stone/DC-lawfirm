@@ -23,7 +23,7 @@
     </div>
     <nav class="main-nav">
       <div id="nav-left">
-        <img src="../assets/logo.png" alt="UG Law Firm" />
+        <img src="../../assets/logo.png" alt="UG Law Firm" />
         <h1>UG LawFirm</h1>
       </div>
       <div id="nav-right">
@@ -87,7 +87,7 @@ export default {
   data: function() {
     return {
       showside: false,
-      showcontact: false,
+      showcontact: false
     };
   },
   methods: {
@@ -99,16 +99,9 @@ export default {
       } else if (modal == "contact-nav") {
         this.showcontact = !this.showcontact;
       }
-    },
+    }
   },
-  computed: {
-    // fixedheader: function() {
-    //   if (window.pageYOffset > 5) {
-    //     console.log(window.pageYOffset);
-    //   }
-    //   return 1;
-    // }
-  },
+  computed: {}
 };
 </script>
 
@@ -121,7 +114,7 @@ export default {
 nav {
   width: 100%;
   position: fixed;
-  height: 19vh;
+  height: 10vh;
   background-color: #fff;
 }
 
@@ -130,6 +123,7 @@ button > * {
   pointer-events: none;
 }
 #nav {
+  width: 100%;
   z-index: 2000;
   position: absolute;
   top: 0;
@@ -176,47 +170,33 @@ img {
   display: flex;
   justify-content: space-around;
 }
-
 #top-nav a {
   font-size: 1em;
+  color: white;
 }
 #top-nav .social svg {
   margin-right: 20px;
 }
-
 .cta {
   border-bottom: 1px solid var(--accent-color);
   color: var(--accent-color);
   padding: 20px;
 }
-
 .collapse {
   visibility: hidden;
   display: none;
 }
 nav a:hover {
-  /* border-bottom: 1px solid var(--accent-color); */
   color: var(--accent-color);
-  padding-bottom: 20px;
-  font-size: 1.4em;
+  font-weight: bolder;
   transition: all 200ms ease-in-out 200ms;
   cursor: pointer;
 }
-
 .cta:hover {
   color: white;
   background-color: var(--accent-color);
   transition: all 200ms ease-in-out 200ms;
 }
-
-/* @media screen and (max-width: 860px) {
-  #nav-left {
-    margin-left: 10px;
-  }
-  #nav-right {
-    margin-right: 10px;
-  }
-} */
 
 @media screen and (max-width: 768px) {
   nav {

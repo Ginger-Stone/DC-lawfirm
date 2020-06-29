@@ -1,9 +1,14 @@
 <template>
   <div id="expertise">
-    <h1>Our Expertise</h1>
+    <Pageheader title="OUR EXPERTISE" sub="This is our services page"></Pageheader>
   </div>
 </template>
 <script>
-export default {};
+import Pageheader from "./inc/Pageheader.vue";
+export default {
+  components: {
+    Pageheader
+  }
+};
 </script>
 <style scoped></style>

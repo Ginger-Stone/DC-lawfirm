@@ -8,8 +8,8 @@ import Aboutus from "./components/Aboutus.vue";
 import Expertise from "./components/Expertise.vue";
 import Contact from "./components/Contact.vue";
 import Appointment from "./components/Appointment.vue";
-import Learnmore from "./components/Learnmore.vue";
-import Notfound from "./components/Notfound.vue";
+import Learnmore from "./components/inc/Learnmore.vue";
+import Notfound from "./components/inc/Notfound.vue";
 
 // font awesome
 import "@fortawesome/fontawesome-free/css/all.css";

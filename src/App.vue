@@ -9,16 +9,16 @@
 
 <script>
 // import Home from "./components/Home.vue";
-import Nav from "./components/Nav.vue";
-import Footer from "./components/Footer.vue";
+import Nav from "./components/inc/Nav.vue";
+import Footer from "./components/inc/Footer.vue";
 
 export default {
   name: "App",
   components: {
     // Home,
     Footer,
-    Nav,
-  },
+    Nav
+  }
 };
 </script>
 

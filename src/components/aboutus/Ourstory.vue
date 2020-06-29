@@ -1,7 +1,5 @@
 <template>
   <div id="ourstory">
-    <!-- <img src="../../assets/lawyers.jpg" alt="" /> -->
-
     <div class="ourstory-content">
       <h1>Our Story</h1>
       <p>
@@ -16,6 +14,24 @@
         soluta fugit omnis! In optio nobis fugiat excepturi delectus.
       </p>
     </div>
+    <div class="ourstory-services">
+      <div class="service-item">
+        <small>Criminal Law</small>
+        <progress max="100" value="90"></progress>
+      </div>
+      <div class="service-item">
+        <small>Employment Law</small>
+        <progress max="100" value="60"></progress>
+      </div>
+      <div class="service-item">
+        <small>Employment Law</small>
+        <progress max="100" value="80"></progress>
+      </div>
+      <div class="service-item">
+        <small>Real Estate Law</small>
+        <progress max="100" value="75"></progress>
+      </div>
+    </div>
   </div>
 </template>
 <script>
@@ -25,23 +41,61 @@ export default {};
 #ourstory {
   position: relative;
   width: 100%;
+  margin-top: 10vh;
   padding: 10px;
   display: block;
-}
-#ourstory img {
-  width: 40vw;
-}
-#ourstory h1 {
-  text-align: center;
   margin: 0;
+  padding: 0;
 }
-.ourstory-content {
-  width: 95vw;
+
+#ourstory img {
+  width: 100vw;
+  height: 40vh;
+}
+
+.ourstory-content,
+.ourstory-services {
+  display: inline-block;
+  width: 40%;
   text-align: justify;
+  padding: 0 20px;
 }
 .ourstory-content p {
   color: var(--main-color);
   max-height: 25vh;
   overflow-y: scroll;
+}
+.ourstory-content p::-webkit-scrollbar {
+  width: 1em;
+}
+
+.service-item {
+  width: 100%;
+  padding: 10px;
+}
+
+.service-item small {
+  display: block;
+}
+progress[value] {
+  /* reset the default appearance */
+  /* -webkit-appearance: none;
+  appearance: none; */
+  width: 80%;
+  height: 5px;
+  /* background-color: var(--main-color); */
+}
+progress[value]::-webkit-progress-bar {
+  background-color: var(--main-color);
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+@media screen and (max-width: 768px) {
+  .ourstory-content,
+  .ourstory-services {
+    margin-left: 8%;
+    width: 80%;
+    text-align: justify;
+  }
 }
 </style>
