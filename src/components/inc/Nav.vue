@@ -236,7 +236,8 @@ nav a:active,
   }
 
   #contact-nav {
-    position: relative;
+    position: fixed;
+    right: 0;
     display: block;
     float: right;
     margin-top: 60px;
@@ -278,7 +279,7 @@ nav a:active,
 
   #side-nav {
     display: block;
-    position: absolute;
+    position: fixed;
     background-color: white;
     width: 40vw;
     margin-bottom: 20px;
